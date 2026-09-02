@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "ANM Admin",
+    "username": "Parwa",
+    "password": "Parwa@1234",
+    "role": "anm",
+    "active": true
+  },
+  {
+    "id": 1788347332021,
+    "name": "Bimal Kumari",
+    "kendraSankhya": "68",
+    "username": "Bimal68",
+    "password": "Bimal@1234",
+    "role": "asha",
+    "active": true,
+    "createdAt": "2026-09-02T11:08:52.021Z"
+  }
+]
