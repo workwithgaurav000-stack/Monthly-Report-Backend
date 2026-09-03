@@ -1038,13 +1038,63 @@ const server = http.createServer(
                         Number(body.hbnc) || 0,
 
                     hbvc:
-                        Number(body.hbvc) || 0,
+                        Number(
+                            body.hbvc ?? body.hbyc
+                        ) || 0,
 
                     tb:
                         Number(body.tb) || 0,
 
                     antra:
                         Number(body.antra) || 0,
+
+                    operation:
+                        Number(body.operation) || 0,
+
+                    copperT:
+                        Number(body.copperT) || 0,
+
+                    maleChild:
+                        Number(body.maleChild) || 0,
+
+                    femaleChild:
+                        Number(body.femaleChild) || 0,
+
+                    homeLiveBirth:
+                        Number(body.homeLiveBirth) || 0,
+
+                    homeWeakNewborn:
+                        Number(body.homeWeakNewborn) || 0,
+
+                    privateLiveBirth:
+                        Number(body.privateLiveBirth) || 0,
+
+                    privateWeakNewborn:
+                        Number(body.privateWeakNewborn) || 0,
+
+                    governmentLiveBirth:
+                        Number(body.governmentLiveBirth) || 0,
+
+                    governmentWeakNewborn:
+                        Number(body.governmentWeakNewborn) || 0,
+
+                    totalLiveBirth:
+                        Number(body.totalLiveBirth) || 0,
+
+                    firstDayHomeVisit:
+                        Number(body.firstDayHomeVisit) || 0,
+
+                    totalWeakNewborn:
+                        Number(body.totalWeakNewborn) || 0,
+
+                    firstWeekHomeVisit:
+                        Number(body.firstWeekHomeVisit) || 0,
+
+                    previousWeakChildren:
+                        Number(body.previousWeakChildren) || 0,
+
+                    previousWeakAliveAfterMonth:
+                        Number(body.previousWeakAliveAfterMonth) || 0,
 
                     entryDate:
                         entryDate,
